@@ -1,7 +1,7 @@
 import qrcode
 
 # Website URL
-url = "https://www.youtube.com/watch?v=GdTAmSuGJ8k"
+url = "https://www.youtube.com/results?search_query=kahani+suno+2.0"
 
 # Generate QR code
 qr = qrcode.QRCode(
