@@ -1,7 +1,7 @@
 import qrcode
 
 # Website URL
-url = "https://github.com/gunjandhurde/Project"
+url = "https://www.youtube.com/watch?v=GdTAmSuGJ8k"
 
 # Generate QR code
 qr = qrcode.QRCode(
@@ -17,6 +17,6 @@ qr.make(fit=True)
 qr_img = qr.make_image(fill_color="black", back_color="white")
 
 # Save the QR code image
-qr_img.save("/PycharmProjects/Project/pythonproject/QR Code Generator/Output/website_qr_code.png")
+qr_img.save("/Users/gunjandhurde/PycharmProjects/Project/pythonproject/QR Code Generator/Output/website_qr_code.png")
 
 print("QR Code for the website generated and saved as website_qr_code.png")
